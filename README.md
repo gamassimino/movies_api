@@ -55,3 +55,12 @@ and currently is conected with an existing rails app hosting on:
 
 ### get all movies produced by a productor
 * https://movies-api-rails.herokuapp.com/api/v1/api/v1/people/movies_as_producer `GET`
+
+### get all actors
+* https://movies-api-rails.herokuapp.com/api/v1/api/v1/people/actors `GET`
+
+### get all directors
+* https://movies-api-rails.herokuapp.com/api/v1/api/v1/people/directors `GET`
+
+### get all productors
+* https://movies-api-rails.herokuapp.com/api/v1/api/v1/people/producers `GET`

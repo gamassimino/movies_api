@@ -10,6 +10,7 @@ module RomanNumerals
   }
 
   def self.to_roman(decimal)
+    return nil if decimal.blank?
     return nil if decimal > 3000 || decimal < 1
     return to_roman_loop(decimal)
     # return to_roman_recursive(decimal, 1000)

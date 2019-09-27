@@ -11,6 +11,10 @@ Rails.application.routes.draw do
         get :movies_as_actor, on: :member
         get :movies_as_director, on: :member
         get :movies_as_producer, on: :member
+
+        get :actors, on: :collection
+        get :directors, on: :collection
+        get :producers, on: :collection
       end
     end
   end
